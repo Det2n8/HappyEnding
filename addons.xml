@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.happyending" name="HappyEnding" version="1.0.0" provider-name="det2n8">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="script.module.happyending" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Custom video browser with large thumbnail views and custom length sorting.</summary>
+    <description lang="en_GB">Framework add-on for sources you are allowed to access. It provides provider modules, forced artwork fields, visible thumbnails, custom min/max length filtering, and view mode shortcuts.</description>
+    <disclaimer lang="en_GB">This add-on does not host media, bypass blocks, bypass logins, scrape private content, or remove provider restrictions. Add only sources you are legally allowed to access.</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
+<addon id="script.module.happyending" name="HappyEnding Tools" version="1.0.0" provider-name="det2n8">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Helper module for custom length sorting and artwork fallback.</summary>
+    <description lang="en_GB">Provides safe helper functions that can be imported by a patched video add-on. It does not bypass providers or fetch restricted content.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
+<addon id="skin.happyending.sidepreview" name="HappyEnding SidePreview" version="1.0.0" provider-name="det2n8">
+  <requires>
+    <import addon="xbmc.gui" version="5.17.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.00" defaultresolution="1080i" defaultresolutionwide="1080i" defaultthemename="Textures.xbt"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Left list, large right thumbnail, compact info underneath.</summary>
+    <description lang="en_GB">Experimental lightweight Kodi 21 Omega skin focused on video add-ons. Designed for HappyEnding browsing where fast list navigation and visible thumbnails matter.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
+<addon id="repository.happyending" name="HappyEnding Repo" version="1.0.1" provider-name="det2n8">
+  <extension point="xbmc.addon.repository" name="HappyEnding Repo">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/Det2n8/HappyEnding/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Det2n8/HappyEnding/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Det2n8/HappyEnding/main/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Repository for HappyEnding options, view helpers, and SidePreview skin.</summary>
+    <description lang="en_GB">GitHub-ready repository template. Upload this folder to GitHub, then install this repository zip in Kodi.</description>
+    <disclaimer lang="en_GB">This repository does not host media content. It only provides Kodi UI/helper add-ons.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>

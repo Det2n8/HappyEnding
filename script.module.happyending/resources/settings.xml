@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings version="1">
+  <category id="length" label="Custom length filter">
+    <setting id="enable_length_filter" type="boolean" label="Enable custom length filter" default="false" />
+    <setting id="min_minutes" type="integer" label="Minimum whole minutes" default="0" />
+    <setting id="min_extra_seconds" type="integer" label="Minimum extra seconds" default="0" />
+    <setting id="max_minutes" type="integer" label="Maximum whole minutes, 0 plus 0 seconds = no max" default="0" />
+    <setting id="max_extra_seconds" type="integer" label="Maximum extra seconds" default="0" />
+    <setting id="sort_direction" type="string" label="Sort custom length" default="long_first">
+      <constraints>
+        <options>
+          <option label="Long first">long_first</option>
+          <option label="Short first">short_first</option>
+          <option label="Keep website order">none</option>
+        </options>
+      </constraints>
+    </setting>
+  </category>
+  <category id="art" label="Thumbnails">
+    <setting id="force_art_fallbacks" type="boolean" label="Force thumb / poster / icon / fanart fallbacks" default="true" />
+    <setting id="placeholder_art" type="string" label="Fallback image URL or path" default="" />
+  </category>
+  <category id="view" label="Views">
+    <setting id="auto_sidepreview_view" type="boolean" label="Auto switch to HappyEnding SidePreview view" default="true" />
+    <setting id="sidepreview_view_id" type="integer" label="HappyEnding SidePreview view id" default="50" />
+  </category>
+</settings>

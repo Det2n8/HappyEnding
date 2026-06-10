@@ -1,0 +1,4 @@
+1.0.0
+- First det2n8 repo template.
+- Added HappyEnding SidePreview skin.
+- Added HappyEnding Tools helper module for custom length and artwork fallback.

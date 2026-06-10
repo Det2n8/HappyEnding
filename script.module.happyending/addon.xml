@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.happyending" name="HappyEnding Tools" version="1.0.0" provider-name="det2n8">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Helper module for custom length sorting and artwork fallback.</summary>
+    <description lang="en_GB">Provides safe helper functions that can be imported by a patched video add-on. It does not bypass providers or fetch restricted content.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>

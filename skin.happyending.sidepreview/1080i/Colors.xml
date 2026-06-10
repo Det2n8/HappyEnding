@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+  <color name="bg">FF12141D</color>
+  <color name="panel">FF1E2330</color>
+  <color name="panel2">FF282E3D</color>
+  <color name="accent">FFC855FF</color>
+  <color name="accent2">FF6EB4FF</color>
+  <color name="text">FFFFFFFF</color>
+  <color name="muted">FFB6C0CE</color>
+  <color name="dim">FF6E7686</color>
+  <color name="blackfade">AA000000</color>
+</colors>

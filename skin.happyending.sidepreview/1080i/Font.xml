@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fonts>
+  <fontset id="Default" idloc="31390" unicode="true">
+    <font>
+      <name>font12</name><filename>arial.ttf</filename><size>24</size><style>normal</style>
+    </font>
+    <font>
+      <name>font13</name><filename>arial.ttf</filename><size>30</size><style>normal</style>
+    </font>
+    <font>
+      <name>font14</name><filename>arial.ttf</filename><size>36</size><style>normal</style>
+    </font>
+    <font>
+      <name>font16</name><filename>arial.ttf</filename><size>48</size><style>bold</style>
+    </font>
+    <font>
+      <name>font20</name><filename>arial.ttf</filename><size>64</size><style>bold</style>
+    </font>
+  </fontset>
+</fonts>

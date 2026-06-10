@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings version="1">
+  <category id="display" label="Display and view types">
+    <setting id="default_view_id" type="integer" label="Default view id: 50 side preview, 500 poster wall, 501 large landscape, 502 compact list" default="50" />
+    <setting id="force_view" type="boolean" label="Force selected view after every list opens" default="true" />
+    <setting id="show_duration_in_title" type="boolean" label="Show duration at end of title" default="true" />
+  </category>
+  <category id="length" label="Custom length sorting">
+    <setting id="enable_length_filter" type="boolean" label="Enable min/max length filter" default="false" />
+    <setting id="min_minutes" type="integer" label="Minimum whole minutes" default="0" />
+    <setting id="min_extra_seconds" type="integer" label="Minimum extra seconds" default="0" />
+    <setting id="max_minutes" type="integer" label="Maximum whole minutes, 0 plus 0 seconds = no max" default="0" />
+    <setting id="max_extra_seconds" type="integer" label="Maximum extra seconds" default="0" />
+    <setting id="sort_direction" type="string" label="Sort results by length" default="long_first">
+      <constraints>
+        <options>
+          <option label="Long first">long_first</option>
+          <option label="Short first">short_first</option>
+          <option label="Keep source order">none</option>
+        </options>
+      </constraints>
+    </setting>
+  </category>
+  <category id="thumbs" label="Thumbnails">
+    <setting id="require_thumb" type="boolean" label="Hide items with no thumbnail" default="false" />
+    <setting id="placeholder_art" type="string" label="Placeholder image URL/path for missing thumbs" default="" />
+  </category>
+  <category id="sources" label="Sources">
+    <setting id="enable_example_provider" type="boolean" label="Enable example provider templates" default="true" />
+  </category>
+</settings>

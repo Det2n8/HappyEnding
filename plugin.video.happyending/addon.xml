@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.happyending" name="HappyEnding" version="1.0.0" provider-name="det2n8">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+    <import addon="script.module.happyending" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Custom video browser with large thumbnail views and custom length sorting.</summary>
+    <description lang="en_GB">Framework add-on for sources you are allowed to access. It provides provider modules, forced artwork fields, visible thumbnails, custom min/max length filtering, and view mode shortcuts.</description>
+    <disclaimer lang="en_GB">This add-on does not host media, bypass blocks, bypass logins, scrape private content, or remove provider restrictions. Add only sources you are legally allowed to access.</disclaimer>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
